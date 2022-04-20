@@ -76,7 +76,6 @@ h2
     color: #f0f0f0;
     font-size: 24px;
     font-weight: 500;
-    margin: 0;
     line-height: 1.2;
 }
 
@@ -130,14 +129,13 @@ h3
     color: #fff;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 1.2;
 }
 
 .infos-row
 {
-    width: 250px;
-    margin-right: px;
+    width: 270px;
 }
 
 .info
@@ -159,19 +157,19 @@ h3
 {
     margin-top: 28px;
     text-transform: uppercase;
-    background-color: #00af73;
-    border: none;
+    background-color: transparent;
+    border: 1px solid #00af73;
     color: #fff;
     font-size: 14px;
     font-weight: 100;
     text-decoration: none;
     padding: 16px 20px;
     cursor: pointer;
-    transition: background-color 1s;
+    transition: background-color 0.8s;
 }
 .btn-cv:hover
 {
-    background-color: #131416;
+    background-color: #00af73;
 }
 
 @media (max-width: 1200px) {
