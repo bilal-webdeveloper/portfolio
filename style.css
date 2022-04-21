@@ -158,29 +158,30 @@ h3
     cursor: pointer;
     margin-top: 28px;
     text-decoration: none;
-    background-color: #131416!important;
+    background-color: #fff!important;
     min-width: 160px;
     min-height: 46px;
     color: #fff;
     fill: #fff;
-    border: none;
+    border: 1px solid #fff;
     font-size: 14px;
-    font-weight: 100;
-    border-radius: none;
+    font-weight: 500;
+    border-radius: 2px;
     transform: perspective(1px) translateZ(0);
     position: relative;
     transition-property: color;
     transition-duration: 0.3s;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     vertical-align: middle;
     line-height: 0;
     letter-spacing: 2px;
     text-transform: uppercase;
+    transition: color 0.3s;
 }
 .btn-cv:hover
 {
     background-color: #000;
-    color: #fff;
+    color: #000;
 }
 .btn-cv::before {
     content: "";
@@ -190,8 +191,8 @@ h3
     bottom: 0;
     left: 0;
     right: 0;
-    background: #00af73;
-    border-radius: 0;
+    background: #000;
+    border-radius: 2px;
     transform: scaleX(1);
     transform-origin: 50%;
     transition-property: transform;
