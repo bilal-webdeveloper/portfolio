@@ -3,53 +3,35 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* NAVBAR */
-.header
+nav
 {
     background-color: #080808;
 }
-.navbar
+
+nav ul
 {
+    height: 77px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
-    max-width: 1355px;
-    padding: 15px;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
 }
-.logo
-{
-    padding-top: 0.5rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    text-decoration: none;
-    white-space: nowrap;
-}
-.menu ul
-{
-    display: flex;
-    justify-content: space-between;
-}
-.menu ul li
-{
+nav ul li {
     list-style: none;
 }
-.menu ul li a
+nav ul li a
 {
+    text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    text-transform: uppercase;
-    margin-left: 73px;
+    font-size: 16px;
     font-weight: 600;
+    letter-spacing: 1;
 }
 
 
