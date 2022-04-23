@@ -7,6 +7,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
 /* NAVBAR */
 nav {
     background-color: #080808;
@@ -81,7 +89,7 @@ h1 {
     line-height: 1.2;
 }
 
-p {
+.info-home p {
     color: #e2e2e2;
     font-size: 16px;
     line-height: 25px;
@@ -112,14 +120,6 @@ p {
 .infos {
     display: flex;
     flex-direction: row;
-}
-
-h3 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    line-height: 1.2;
 }
 
 .infos-row {
@@ -188,4 +188,67 @@ h3 {
 
 .btn-cv:hover::before {
     transform: scaleX(0);
+}
+
+
+/* EDUCATION */
+#education {
+    background-color: #131416;
+    height: 100vh;
+}
+
+#education h3
+{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.education-parts
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-part
+{
+    background-color: #000;
+    height: auto;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 33%;
+}
+.education-part-1
+{
+    margin-left: 40px;
+}
+
+.education-part-3
+{
+    margin-right: 40px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.date {
+    color: #fff;
+    display: inline-block;
+    font-family: "Open Sans Light";
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.institution {
+    color: #d5d7d9;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
 }
