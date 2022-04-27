@@ -100,7 +100,7 @@ h1 {
 
 /* ABOUT ME */
 #about-me {
-    height: 113vh;
+    height: 80vh;
     overflow: hidden;
     background-color: #000;
     margin-right: auto;
@@ -197,58 +197,52 @@ h1 {
     height: 100vh;
 }
 
-#education h3
-{
+#education h3 {
     text-align: center;
     padding-top: 45px;
 }
 
-.education-parts
-{
-    display: flex;
-    justify-content: space-around;
-}
-
-.education-part
-{
+.education-box {
     background-color: #000;
-    height: auto;
-    padding: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 33%;
-}
-.education-part-1
-{
-    margin-left: 40px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    margin: 0;
+    padding: 25px 20px;
+    margin: auto 50px;
 }
 
-.education-part-3
-{
-    margin-right: 40px;
+.education .date {
+    background-color: #00b074;
+    color: #fff;
+    display: inline-block;
+    font-family: Open Sans Light;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 4px 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-h4 {
+.education h4 {
     color: #fff;
     font-size: 20px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-weight: 500;
     line-height: 1.2;
 }
 
-.date {
-    color: #fff;
-    display: inline-block;
-    font-family: "Open Sans Light";
-    margin: 0 auto;
-    font-size: 14px;
-}
-
-.institution {
+.education .institution {
     color: #d5d7d9;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
     margin: 0 auto;
+    line-height: 1.2;
+}
+
+.education-box hr {
+    height: 1px;
+    color: #fff;
+    margin: 1rem 0;
+    opacity: 0.25;
 }
